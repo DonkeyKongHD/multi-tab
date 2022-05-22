@@ -1,0 +1,53 @@
+/*changes position*/
+body{
+    margin:0;
+    padding:0;
+}
+.tab2-bkg{
+    background-image: url(https://htmlcolors.com/gradients-images/401-bright-blood-red-risk.jpg);
+}
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+/*makes top gray*/
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #2D2D31;
+    /*background-color: grey;*/
+    width: 100%;
+    overflow: hidden;
+    border: 0px solid #555;
+}
+/*make horizontal*/
+.navbar li {
+    float:left;
+    text-align: center;
+    border-right: 1px solid #555;
+}
+/*spaced out tabs*/
+.navbar li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: large;
+}
+/*change color when hovering*/
+.navbar li a:hover{
+    background: linear-gradient(90deg, #F1A13A 0%, #FEE24D 100%);
+    background-color: #F2A73B;
+    color:rgb(0, 0, 0);
+}
+.sex{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(90deg, #BC271B 0%, #F1A13A 50%, #FEE24D 100%);
+}
+.center {
+    text-align: center;
+    color: red;
+  }
